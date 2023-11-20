@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('earthbg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-container input {
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.input-container button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center-box {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+#flagColumn img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+}
+footer a:hover {
+    color: orange;
+}
